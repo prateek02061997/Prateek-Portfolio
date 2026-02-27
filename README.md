@@ -5,6 +5,7 @@ This portfolio highlights analytics and AI-driven projects aligned with my CV. I
 ## Portfolio Site
 
 Open index.html in a browser to view the site.
+Live site: https://prateek02061997.github.io/Prateek-Portfolio/
 
 ## Projects
 
@@ -18,5 +19,6 @@ Open index.html in a browser to view the site.
 - Email: pprateek26@gmail.com
 - LinkedIn: https://linkedin.com/in/pprateek26
 - Website: https://kiwibudgettours.com
+- Portfolio: https://prateek02061997.github.io/Prateek-Portfolio/
 
 Note: Sample data in the project folders is placeholder data and should be replaced with real project data when available.
