@@ -10,7 +10,7 @@ renewable transition, and digital or AI-enabled improvement opportunities.
 
 ## Source File
 
-- ../../Projects11/Prateek Parihar - Genesis.pdf
+- ./genesis-report.pdf
 
 ## Key Themes
 
