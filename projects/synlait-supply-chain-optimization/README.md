@@ -1,4 +1,4 @@
-# Synlait Milk - Supply Chain Optimization
+# Synlait Milk - Supply Chain Optimisation
 
 ## 📊 Project Overview
 Supply chain optimization project focused on identifying operational inefficiencies and recommending solutions that reduce waste and support sustainability goals for Synlait Milk operations.

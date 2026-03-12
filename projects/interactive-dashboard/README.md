@@ -1,21 +1,21 @@
-# Interactive Dashboard Development
+# Generative AI Business Process Automation
 
 ## Goal
-Create Power BI dashboards with automated refresh that reduce manual reporting time by 70%.
+Build practical automation workflows using Claude and OpenAI APIs to reduce manual reporting effort by 70%.
 
 ## What I Did
-- Defined KPI requirements with stakeholders.
-- Built data models and calculated measures.
-- Designed interactive visuals for leadership reporting.
+- Mapped business processes to identify high-value AI intervention points.
+- Defined requirements, success measures, and review checkpoints for each use case.
+- Built structured prompt workflows that turned repetitive analyst tasks into repeatable AI-assisted processes.
 
-## Data
-Sample data is included in data/dashboard_sample.csv. Replace it with real reporting data.
+## Inputs
+Representative workflow inputs are included in data/dashboard_sample.csv as placeholder reporting data.
 
-## Dashboard Highlights
-- KPI scorecards and trend lines
-- Drill-through by region and product
-- Automated refresh schedule
+## Solution Highlights
+- Claude and OpenAI API based automation flows
+- Standardised outputs for summaries, drafts, and reporting support
+- Human-in-the-loop review points for responsible adoption
 
 ## Next Steps
-- Add row-level security for department views.
-- Publish to Power BI service with alerts.
+- Add retrieval-grounded workflows for richer business context.
+- Expand into more advanced agentic orchestration patterns.

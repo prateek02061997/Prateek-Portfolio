@@ -1,4 +1,4 @@
-# Gilmours - Delivery Efficiency Analysis
+# Gilmours - Workflow Analysis & Process Redesign
 
 ## 📊 Project Overview
 Comprehensive workflow analysis project aimed at reducing delivery delays by 20% through systematic bottleneck identification and process optimization for Gilmours delivery operations.

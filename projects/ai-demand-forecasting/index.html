@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>AI-Powered Demand Forecasting | Prateek Parihar</title>
+    <title>AI-Powered Retail Demand Forecasting System | Prateek Parihar</title>
     <link rel="stylesheet" href="../../styles.css" />
     <style>
       .project-hero {
@@ -121,7 +121,6 @@
           <span class="brand-mark">PP</span>
           <div>
             <strong>Prateek Parihar</strong>
-            <div class="card-meta">Automation & AI</div>
           </div>
         </a>
         <nav>
@@ -139,73 +138,77 @@
       <a href="../../projects.html" class="back-link">← Back to Projects</a>
 
       <div class="project-hero">
-        <h1>AI-Powered Retail Demand Forecasting</h1>
-        <p>Built a Prophet-based time series forecasting model to predict weekly retail demand and improve inventory planning, achieving 15% waste reduction.</p>
+        <h1>AI-Powered Retail Demand Forecasting System</h1>
+        <p>Designed and validated a retail demand forecasting workflow that turned historical sales patterns into planning recommendations for inventory and replenishment decisions.</p>
         <div class="project-meta">
           <div class="meta-item">
-            <span class="meta-label">Impact:</span>
-            <span class="meta-value">15% waste reduction</span>
+            <span class="meta-label">Year:</span>
+            <span class="meta-value">2026</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Outcome:</span>
+            <span class="meta-value">Forecast-led 15% stock waste reduction opportunity</span>
           </div>
           <div class="meta-item">
             <span class="meta-label">Focus:</span>
-            <span class="meta-value">Python • Forecasting</span>
+            <span class="meta-value">Python • Forecasting • Explainable AI</span>
           </div>
         </div>
       </div>
 
       <div class="project-content">
         <div class="project-section">
-          <h2>📊 Project Overview</h2>
+          <h2>Project Overview</h2>
           <p>
-            Retail organizations face significant waste from overstock situations and stockouts from underestimation. 
-            This project built an automated demand forecasting system using Facebook's Prophet library to predict 
-            future demand patterns and enable data-driven inventory planning.
+            This project focused on a real business problem: reducing inventory waste without increasing stockout risk.
+            I framed the forecasting problem as a decision-support use case, built a Prophet-based model, and translated
+            the outputs into planning guidance that non-technical stakeholders could use in weekly inventory reviews.
           </p>
         </div>
 
         <div class="project-section">
-          <h2>🎯 Objectives</h2>
+          <h2>Objectives</h2>
           <ul>
-            <li>Reduce inventory waste by identifying overstock situations</li>
-            <li>Minimize stockouts through accurate demand prediction</li>
-            <li>Enable weekly inventory planning with confidence intervals</li>
-            <li>Create automated forecasting pipeline for continuous improvement</li>
+            <li>Define a clear AI use case tied to inventory and planning outcomes</li>
+            <li>Forecast weekly demand with business-friendly confidence ranges</li>
+            <li>Support explainable recommendations for stock and replenishment decisions</li>
+            <li>Evaluate the model against measurable waste-reduction outcomes</li>
           </ul>
         </div>
 
         <div class="project-section">
-          <h2>🔍 Methodology</h2>
+          <h2>Methodology</h2>
           <ul>
-            <li><strong>Data Preparation:</strong> Cleaned and aggregated 2+ years of historical sales data</li>
-            <li><strong>Exploratory Analysis:</strong> Identified seasonal patterns, trends, and anomalies</li>
-            <li><strong>Prophet Modeling:</strong> Built time series model with seasonal decomposition</li>
-            <li><strong>Validation:</strong> Tested forecast accuracy using holdout test sets</li>
-            <li><strong>Integration:</strong> Automated model to generate weekly forecasts</li>
+            <li><strong>Use Case Definition:</strong> Mapped business pain points around stock waste, planning uncertainty, and replenishment timing</li>
+            <li><strong>Data Preparation:</strong> Cleaned and aggregated historical sales data into a forecasting-ready structure</li>
+            <li><strong>Model Build:</strong> Developed a Prophet-based time series workflow to capture seasonality and trend shifts</li>
+            <li><strong>Validation:</strong> Compared forecast outputs against historical periods and planning expectations</li>
+            <li><strong>Decision Framing:</strong> Translated forecasts into operational recommendations stakeholders could interpret easily</li>
           </ul>
         </div>
 
         <div class="project-section">
-          <h2>🛠️ Technical Stack</h2>
+          <h2>Technical Stack</h2>
           <ul>
             <li><strong>Language:</strong> Python 3.8+</li>
             <li><strong>Core Libraries:</strong> Prophet, Pandas, NumPy, Matplotlib</li>
             <li><strong>Data Source:</strong> CSV with daily sales transactions</li>
-            <li><strong>Metrics:</strong> MAPE, RMSE for forecast validation</li>
+            <li><strong>Evaluation Metrics:</strong> MAPE, RMSE, and business impact modelling for waste reduction</li>
           </ul>
         </div>
 
         <div class="project-section">
-          <h2>💡 Key Results</h2>
+          <h2>Key Results</h2>
           <ul>
-            <li><strong>15% waste reduction:</strong> Improved inventory accuracy reduced overstock situations</li>
-            <li><strong>Forecast accuracy:</strong> MAPE of ~8-12% on test data</li>
-            <li><strong>Confidence intervals:</strong> 80% and 95% prediction bands for planning</li>
-            <li><strong>Automation:</strong> Weekly forecasts generated automatically with no manual intervention</li>
+            <li><strong>15% waste-reduction opportunity:</strong> Forecast-led planning identified a credible opportunity to reduce overstock situations</li>
+            <li><strong>Explainable outputs:</strong> Trend and seasonality insights made recommendations easier to communicate to non-technical stakeholders</li>
+            <li><strong>Decision support:</strong> Weekly planning scenarios gave clearer guidance for inventory actions</li>
+            <li><strong>Reusable workflow:</strong> The model structure can be extended with promotions, holidays, and additional business signals</li>
           </ul>
         </div>
 
         <div class="project-section">
-          <h2>📁 Data Format</h2>
+          <h2>Data Format</h2>
           <p>Sample data structure in <code>data/sample_demand.csv</code>:</p>
           <div class="code-block">
 Date,Sales<br>
@@ -217,12 +220,12 @@ Date,Sales<br>
         </div>
 
         <div class="project-section">
-          <h2>🚀 Implementation Highlights</h2>
+          <h2>Implementation Highlights</h2>
           <ul>
             <li>Automatic changepoint detection for sales trend shifts</li>
             <li>Custom seasonality settings for retail calendar (holidays, promotions)</li>
-            <li>Model versioning and performance tracking</li>
-            <li>Easy integration with existing inventory systems</li>
+            <li>Business-friendly outputs suitable for operational review</li>
+            <li>Clear path for integration into a broader AI-enabled planning workflow</li>
           </ul>
         </div>
       </div>
